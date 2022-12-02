@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: db-conf
 data:
- host: kumar-mysql
- name: kumar_db
+ host: petclinic
+ name: admin
 
