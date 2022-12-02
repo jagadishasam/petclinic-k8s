@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: petclinic-k8s-mysql
-          image: kumar5483/petclinic-k8s-mysql:1.0 
+          image: 028059/petclinic:latest 
           ports:
             - containerPort: 8080                
           env:   # Setting Enviornmental Variables
